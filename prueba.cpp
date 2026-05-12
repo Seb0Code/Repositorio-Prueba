@@ -12,6 +12,9 @@ int main() {
     if (cin.fail()) {
         cin.clear();
         cin.ignore(10000, '\n');
+        cout << "Ingresaste algo que no es un numero :(\n";
+    } else {
+        cout << "Ingresaste el numero: " << num << std::endl;
     }
     return 0;
 }
